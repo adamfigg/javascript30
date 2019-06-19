@@ -14,12 +14,13 @@
 
   <style>
     html {
-      color: black;
+      color: white;
       font-family: sans-serif;
     }
 
     body {
       margin: 0;
+      background-color: black
     }
 
     .hero {
@@ -27,11 +28,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      color: black;
+      color: darkred;
     }
 
     h1 {
-      text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+      text-shadow: 10px 10px 0 white;
       font-size: 100px;
     }
   </style>
@@ -57,7 +58,13 @@
         `
         ${xWalk}px ${yWalk}px 0 yellow,
         ${xWalk * 1.33}px ${yWalk * 1.33}px 0 orange,
-        ${xWalk * 1.66}px ${yWalk * 1.66}px 0 red
+        ${xWalk * 1.66}px ${yWalk * 1.66}px 0 red,
+        ${xWalk * 2}px ${yWalk * 2}px 0 yellow,
+        ${xWalk * 2.33}px ${yWalk * 2.33}px 0 orange,
+        ${xWalk * 2.66}px ${yWalk * 2.66}px 0 red,
+        ${xWalk * 3}px ${yWalk * 3}px 0 yellow,
+        ${xWalk * 3.33}px ${yWalk * 3.33}px 0 orange,
+        ${xWalk * 3.66}px ${yWalk * 3.66}px 0 red
       `
     }
 
